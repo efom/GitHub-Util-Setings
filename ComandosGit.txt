@@ -1,0 +1,14 @@
+GitHub comandos para proyecto android
+
+Crear nuevo repocitorio en la página (el mismo nombre en el computador)
+____________________________________
+
+cd ruta...
+git init
+git add *   (añadir manualmente los que faltan ej: .idea)
+git commit -m "Poner detalles"
+git remote add origin https://github.com/name/project.g...
+(git push -u origin master)
+git merge origin/master --allow-unrelated-histories
+(editor Vim) (i o escape) :x
+git push -u origin master
